@@ -1,8 +1,8 @@
 "use client";
-import { roboto } from "@/app/fonts/fonts";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
+import { roboto } from "../../fonts/fonts";
 
 const Header = () => {
   const [isClick, setIsClick] = useState(false);

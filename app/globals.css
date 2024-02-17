@@ -10,3 +10,20 @@
 body {
   background-color: #eae7e7;
 }
+
+::-webkit-scrollbar {
+  width: 15px; /* Largeur de la barre de défilement */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Couleur de l'arrière-plan de la piste de défilement */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #b89f59; /* Couleur du bouton de la barre de défilement */
+  border-radius: 10px; /* Arrondi du bouton de la barre de défilement */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #d9c58d; /* Couleur du bouton de la barre de défilement lors du survol */
+}
