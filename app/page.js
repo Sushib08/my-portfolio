@@ -16,7 +16,7 @@ export default function Home() {
             HELLO, JE SUIS
             <br />
             <TextAnime
-              className={`${fredoka.className} text-[#b89f59] bg-slate-700 inline-block lg:text-[3rem]`}
+              className={`${fredoka.className} text-violet-700 bg-white inline-block lg:text-[3rem]`}
               sequence={[
                 "MAÉVA LAGROST",
                 2000,

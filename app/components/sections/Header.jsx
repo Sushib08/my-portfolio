@@ -18,7 +18,7 @@ const Header = () => {
       <div className=" flex justify-between items-center">
         <Link
           href="/"
-          className=" flex flex-row items-center gap-2 hover:text-[#b89f59]"
+          className=" flex flex-row items-center gap-2 hover:text-violet-700"
         >
           <Image
             src="/img/profil.webp"
@@ -31,16 +31,16 @@ const Header = () => {
         </Link>
 
         <div className="hidden md:flex gap-6 px-2 ">
-          <Link href="/" className="hover:text-[#b89f59]">
+          <Link href="/" className="hover:text-violet-700">
             HOME
           </Link>
-          <Link href="/about" className="hover:text-[#b89f59]">
+          <Link href="/about" className="hover:text-violet-700">
             A PROPOS
           </Link>
-          <Link href="/projects" className="hover:text-[#b89f59]">
+          <Link href="/projects" className="hover:text-violet-700">
             PROJETS
           </Link>
-          <Link href="/contact" className="hover:text-[#b89f59]">
+          <Link href="/contact" className="hover:text-violet-700">
             CONTACT
           </Link>
         </div>
@@ -88,16 +88,16 @@ const Header = () => {
         <div className="md:hidden">
           <div className="pt-6 pb-3 space-y-1">
             <div className="flex flex-col gap-6">
-              <Link href="/" className="hover:text-[#b89f59]">
+              <Link href="/" className="hover:text-violet-700">
                 HOME
               </Link>
-              <Link href="/about" className="hover:text-[#b89f59]">
+              <Link href="/about" className="hover:text-violet-700">
                 A PROPOS
               </Link>
-              <Link href="/projects" className="hover:text-[#b89f59]">
+              <Link href="/projects" className="hover:text-violet-700">
                 PROJETS
               </Link>
-              <Link href="/contact" className="hover:text-[#b89f59]">
+              <Link href="/contact" className="hover:text-violet-700">
                 CONTACT
               </Link>
             </div>
