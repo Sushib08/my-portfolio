@@ -1,24 +1,12 @@
 "use client";
-import React, { useState } from "react";
 import Footer from "./components/sections/Footer";
 import Header from "./components/sections/Header";
 import TextAnime from "./components/elements/TextAnime";
 import Button from "./components/elements/Button";
-import MyCV from "./components/elements/MyCV";
 import Link from "next/link";
 import { fredoka } from "./fonts/fonts";
 
 export default function Home() {
-  const [showCV, setShowCV] = useState(false);
-
-  const handleButtonClick = () => {
-    setShowCV(true);
-  };
-
-  const handleCloseCV = () => {
-    setShowCV(false);
-  };
-
   return (
     <div className="h-screen flex flex-col">
       <Header />
@@ -52,8 +40,10 @@ export default function Home() {
             <Link href="/contact">
               <Button text={"Me contacter"} />
             </Link>
-            <Button text={"Mon CV"} onClick={handleButtonClick} />
-            {showCV && <MyCV onClose={handleCloseCV} />}
+            <Button
+              text={"Mon CV"}
+              onClick={() => window.open("/cv_maeva_la.pdf", "_blank")}
+            />
           </div>
         </div>
       </main>
