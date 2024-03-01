@@ -9,8 +9,8 @@ const Project = ({ link, title, desc, src, alt, isReverse }) => {
   return (
     <Fade cascade>
       <div
-        className={` lg:py-16 pt-8 pb-6 px-12 flex justify-center items-center gap-12 lg:flex-row flex-col${
-          isReverse ? "" : "-reverse"
+        className={`lg:py-16 pt-8 pb-6 px-12 flex justify-center lg:flex-row items-center gap-12 ${
+          !isReverse ? "flex-col-reverse" : "flex-col"
         }`}
       >
         {!isReverse ? (
