@@ -76,17 +76,12 @@
             "NextJs",
             "ReactJs",
             "Tailwind",
-            "CMS Wordpress",
-            "Vercel"
+            "CMS Wordpress"
         ],
         "links": [
             {
                 "url": "https://github.com/Sushib08/my-blog.git",
                 "text": "LIEN GITHUB"
-            },
-            {
-                "url": "https://my-blog-vanlife.vercel.app/",
-                "text": "LIEN VERS LE SITE"
             }
         ]
     },
