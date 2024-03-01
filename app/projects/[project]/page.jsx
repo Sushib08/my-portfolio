@@ -1,13 +1,15 @@
 import React from "react";
-import Header from "../../components/sections/Header";
-import Footer from "../../components/sections/Footer";
 import projectsData from "../../data/projectsData.json";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUturnLeftIcon } from "@heroicons/react/24/solid";
 import { fredoka } from "../../fonts/fonts";
-import Technos from "../../components/elements/Technos";
-import Button from "../../components/elements/Button";
+import dynamic from "next/dynamic";
+
+const Header = dynamic(() => import("../../components/sections/Header"));
+const Footer = dynamic(() => import("../../components/sections/Footer"));
+const Technos = dynamic(() => import("../../components/elements/Technos"));
+const Button = dynamic(() => import("../../components/elements/Button"));
 
 const Project = ({ params }) => {
   const { project } = params;

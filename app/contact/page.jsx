@@ -1,8 +1,10 @@
 import React from "react";
-import Header from "../components/sections/Header";
-import Footer from "../components/sections/Footer";
-import TitlePage from "../components/elements/TitlePage";
-import ContactForm from "../components/elements/ContactForm";
+import dynamic from "next/dynamic";
+
+const Header = dynamic(() => import("../components/sections/Header"));
+const Footer = dynamic(() => import("../components/sections/Footer"));
+const TitlePage = dynamic(() => import("../components/elements/TitlePage"));
+const ContactForm = dynamic(() => import("../components/elements/ContactForm"));
 
 const Contact = () => {
   return (

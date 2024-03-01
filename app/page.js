@@ -1,10 +1,12 @@
 "use client";
 import Footer from "./components/sections/Footer";
 import Header from "./components/sections/Header";
-import TextAnime from "./components/elements/TextAnime";
 import Button from "./components/elements/Button";
 import Link from "next/link";
 import { fredoka } from "./fonts/fonts";
+import dynamic from "next/dynamic";
+
+const TextAnime = dynamic(() => import("./components/elements/TextAnime"));
 
 export default function Home() {
   return (

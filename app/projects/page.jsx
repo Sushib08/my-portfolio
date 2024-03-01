@@ -1,9 +1,11 @@
 import React from "react";
-import Header from "../components/sections/Header";
-import Footer from "../components/sections/Footer";
-import TitlePage from "../components/elements/TitlePage";
-import Project from "../components/elements/Project";
 import projectsData from "../data/projectsData.json";
+import dynamic from "next/dynamic";
+
+const Header = dynamic(() => import("../components/sections/Header"));
+const Footer = dynamic(() => import("../components/sections/Footer"));
+const TitlePage = dynamic(() => import("../components/elements/TitlePage"));
+const Project = dynamic(() => import("../components/elements/Project"));
 
 const Projects = () => {
   return (

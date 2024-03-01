@@ -1,11 +1,14 @@
 import React from "react";
-import Header from "../components/sections/Header";
-import Footer from "../components/sections/Footer";
-import Skills from "../components/elements/Skills";
-import { fredoka } from "../fonts/fonts";
-import Button from "../components/elements/Button";
-import TitlePage from "../components/elements/TitlePage";
 import Link from "next/link";
+import { fredoka } from "../fonts/fonts";
+import dynamic from "next/dynamic"; // Importation de la fonction dynamic
+
+// Importation dynamique des composants Header, Footer, Skills, Button et TitlePage
+const Header = dynamic(() => import("../components/sections/Header"));
+const Footer = dynamic(() => import("../components/sections/Footer"));
+const Skills = dynamic(() => import("../components/elements/Skills"));
+const Button = dynamic(() => import("../components/elements/Button"));
+const TitlePage = dynamic(() => import("../components/elements/TitlePage"));
 
 const About = () => {
   return (
