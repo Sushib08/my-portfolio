@@ -16,22 +16,22 @@ const About = () => {
           <TitlePage title="A PROPOS DE MOI" />
           <p className=" text-slate-700 lg:text-lg text-[0.8rem]">
             Après avoir occupé un poste de responsabilité dans le secteur de la
-            vente alimentaire pendant une longue période, j'ai ressenti le
+            vente alimentaire pendant une longue période, j&apos; ai ressenti le
             besoin de me renouveler et de relever de{" "}
             <span className={`${fredoka.className} text-violet-700`}>
               Nouveaux Défis
             </span>
-            . Passionné depuis toujours par l'
+            . Passionné depuis toujours par l&apos;
             <span className={`${fredoka.className}  text-violet-700`}>
               Informatique
             </span>
-            , les jeux vidéo et les dernières avancées technologiques, j'ai
-            entrepris pendant plus de deux ans une formation{" "}
+            , les jeux vidéo et les dernières avancées technologiques, j&apos;
+            ai entrepris pendant plus de deux ans une formation{" "}
             <span className={`${fredoka.className}  text-violet-700`}>
               Autodidacte
             </span>{" "}
-            afin d'acquérir de nouvelles compétences et d'approfondir mes
-            connaissances dans ce domaine.
+            afin d&apos; acquérir de nouvelles compétences et d&apos;
+            approfondir mes connaissances dans ce domaine.
           </p>
           <p className=" text-slate-700 lg:text-lg text-[0.8rem]">
             Ma démarche inclut également une{" "}
@@ -43,8 +43,8 @@ const About = () => {
             <span className={`${fredoka.className}  text-violet-700`}>
               Polyvalente
             </span>{" "}
-            possible et d'enrichir mon expérience existante. Mon objectif est de
-            pouvoir offrir un service de{" "}
+            possible et d&apos; enrichir mon expérience existante. Mon objectif
+            est de pouvoir offrir un service de{" "}
             <span className={`${fredoka.className}  text-violet-700`}>
               Qualité
             </span>
@@ -56,7 +56,7 @@ const About = () => {
             <span className={`${fredoka.className}  text-violet-700`}>
               Savoir-Faire
             </span>
-            , résultat de cette démarche continue d'apprentissage et de
+            , résultat de cette démarche continue d&apos; apprentissage et de
             perfectionnement.
           </p>
         </div>
